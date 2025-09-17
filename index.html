@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maravillas de Colombia</title>
+    <style>
+        /* --- Estilos Generales --- */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* --- Encabezado --- */
+        header {
+            background-color: #003893; /* Azul de la bandera */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid #FFCD00; /* Amarillo de la bandera */
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* --- Contenedor Principal de las Tarjetas --- */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        /* --- Estilo de cada Tarjeta de Destino --- */
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 350px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        /* --- Imagen de la Tarjeta --- */
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* --- Contenido de la Tarjeta (Texto) --- */
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h2 {
+            margin-top: 0;
+            color: #D62828; /* Rojo de la bandera */
+        }
+        .card-content p {
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+
+        /* --- Pie de Página --- */
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Maravillas de Colombia</h1>
+    </header>
+
+    <main class="container">
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Cartagena_de_Indias_-_Getseman%C3%AD_-_Calle_de_la_Sierpe.jpg/1280px-Cartagena_de_Indias_-_Getseman%C3%AD_-_Calle_de_la_Sierpe.jpg" alt="Calles coloridas de Cartagena">
+            <div class="card-content">
+                <h2>Cartagena de Indias</h2>
+                <p>Sumérgete en la historia explorando la Ciudad Amurallada, con sus calles coloridas, balcones floridos y plazas vibrantes. Un tesoro colonial declarado Patrimonio de la Humanidad.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Colombia_-_Salento_-_Valle_del_Cocora_-_panoramio_%281%29.jpg/1280px-Colombia_-_Salento_-_Valle_del_Cocora_-_panoramio_%281%29.jpg" alt="Palmas de cera gigantes en el Valle de Cocora">
+            <div class="card-content">
+                <h2>Valle de Cocora, Salento</h2>
+                <p>Camina entre las palmas de cera más altas del mundo en el corazón del Eje Cafetero. Un paisaje surrealista y el hogar del árbol nacional de Colombia. ¡Una vista inolvidable!</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Ca%C3%B1o_Cristales%2C_Colombia.jpg/1280px-Ca%C3%B1o_Cristales%2C_Colombia.jpg" alt="Río de cinco colores, Caño Cristales">
+            <div class="card-content">
+                <h2>Caño Cristales</h2>
+                <p>Conocido como el "río de los cinco colores", este fenómeno natural único en el mundo deslumbra con sus tonos rojos, amarillos, verdes y azules gracias a sus plantas acuáticas.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cabo_San_Juan_-_Parque_Tayrona_-_Colombia.jpg/1280px-Cabo_San_Juan_-_Parque_Tayrona_-_Colombia.jpg" alt="Playa en el Parque Tayrona">
+            <div class="card-content">
+                <h2>Parque Nacional Tayrona</h2>
+                <p>Donde la selva se encuentra con el mar Caribe. Descubre playas paradisíacas de arena blanca, aguas cristalinas y senderos ancestrales en las faldas de la Sierra Nevada de Santa Marta.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Explora y enamórate de Colombia.</p>
+    </footer>
+
+</body>
